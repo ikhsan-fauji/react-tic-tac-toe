@@ -13,3 +13,4 @@ Kita akan butuh 3 komponen diantaranya
 - Board => berisi 9 Square
 - Game => render Board
 
+penggunaan function pada onClick, jika menggunakan onClick={alert('alert')} maka alert akan selalu dijalankan. untu mengatasinya gunakan onClick={ () => alert('alert') }, dengan begitu alert hanya akan dijalankan ketika diklik.
