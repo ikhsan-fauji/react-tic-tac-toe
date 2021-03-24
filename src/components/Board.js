@@ -9,8 +9,19 @@ class Board extends Component {
     };
   }
 
+  _handleClick(index) {
+    const squares = this.state.squares.slice();
+    squares[index] = 'X';
+    this.setState({ squares });
+  }
+
   renderSquare(i) {
-    return <Square value={this.state.squares[i]} />
+    return (
+      <Square
+        value={this.state.squares[i]}
+        onClick={() => this._handleClick(i)}
+      />
+    );
   }
 
   render() {
