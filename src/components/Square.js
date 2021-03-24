@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Square extends Component {
   render() {
     return (
-      <button className="square">
-
+      <button className="square" onClick={() => alert('On Click')}>
+        { this.props.value }
       </button>
     );
   }
