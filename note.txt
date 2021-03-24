@@ -1,0 +1,15 @@
+Reactjs Tic Tac Toe Game
+- Prerequirements
+1. Familiar dengan HTML dan Javascript (ES6 - recomended).
+2. Familiar dengan konsep pemrograman seperti fungsi, object, array dan kelas.
+
+Apa itu react?
+- React adalah Javascript library yang deklaratif, efisien, dan fleksibel untuk membuat user interface.
+- React memungkinkan kamu untuk menyusun UI yang complex dari bagian yang kecil dan terisolasi yang disebut dengan komponen.
+
+
+Kita akan butuh 3 komponen diantaranya
+- Square => merender button
+- Board => berisi 9 Square
+- Game => render Board
+
