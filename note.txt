@@ -16,3 +16,5 @@ Kita akan butuh 3 komponen diantaranya
 penggunaan function pada onClick, jika menggunakan onClick={alert('alert')} maka alert akan selalu dijalankan. untu mengatasinya gunakan onClick={ () => alert('alert') }, dengan begitu alert hanya akan dijalankan ketika diklik.
 
 pada kelas Javascript, pemanggilan super selalu dibutuhkan ketika mendefinisikan constructor pada kelas turunan. semua kelas komponen react yang memiliki constructor harus diawali dengan memanggil super(props); karena kelas komponen baru menjadi turunan dari kelas Component dati react.
+
+dengan menggunakan this.setState(), pada render method, kita memberi tahu react untuk merender ulang komponen.
