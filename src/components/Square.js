@@ -12,7 +12,7 @@ class Square extends Component {
     return (
       <button
         className="square"
-        onClick={() => this.setState({ value: 'X' }) }
+        onClick={() => this.props.onClick()}
       >
         { this.props.value }
       </button>
